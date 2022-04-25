@@ -7,6 +7,7 @@
 
 }
 .sam{
+
     width: 500px;
     height: 500px;
     display: flex;
@@ -17,6 +18,7 @@
 }
 h2{
     color: white;
+    text-align: center;
 }
 .ojo{
     margin: 0 auto;

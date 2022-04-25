@@ -11,7 +11,23 @@ function lovCalc(){
     var love = Math.random();
     love = love * 100;
     love = Math.floor(love) + 1;
-    var output = zName + " and " + cName + " are " + love + "% match!!!";
+    if(love >= 90){
+        var output = zName + " and " + cName + " are " + love + "% match!!! This one is match made in heaven👩‍❤️‍💋‍👨.";
+    }
+    if(love > 65 & love < 90 ){
+        var output = zName + " and " + cName + " are " + love + "% match!!! You both are good to go.";
+    }
+    if(love >40 & love <= 65){
+        output = zName + " and " + cName + " are " + love + "% match!!! " + cName + " is not for you sadly😔";
+    }
+    if(love >10 & love <=40){
+        output = zName + " and " + cName + " are " + love + "% match!!! " + zName + " RUN for your life!!!";
+    }
+    if(love <=10){
+        output = zName + " and " + cName + " are " + love + "% match!!! just forget about " + cName + " for your own good.";
+    }
+
+    // var output = zName + " and " + cName + " are " + love + "% match!!!";
     // alert(output);
     return output;
 }
